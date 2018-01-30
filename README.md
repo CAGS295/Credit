@@ -7,16 +7,18 @@
   * 1.1 Introducción
   * 1.2 Puntaje Crediticio
 * 2 Modelo experto (German data)
-* 3
-  * 3.1 Algoritmos, Python, Pandas y Matplotlib
-  * 3.2 ¿Cómo aprendemos de los datos?
-  * 3.3 Perceptron
-* 4 Modelo Lineal
-* 5 Regresion Logistica
-* 6 1er Examen
-* 7 Modelos de arbol
-* 8 Ensambles
-* 9 Maquinas generadoras de vectores de soporte
+* 3 Python
+* 4 Numpy
+* 5 Pandas
+* 6
+  * 3.1 ¿Cómo aprendemos de los datos?
+  * 3.2 Perceptron
+* 7 Modelo Lineal
+* 8 Regresion Logistica
+* 9 1er Examen
+* 10 Modelos de arbol
+* 11 Ensambles
+* 12 Maquinas generadoras de vectores de soporte
 * 10
 * 11
 * 12

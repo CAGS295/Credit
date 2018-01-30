@@ -1,0 +1,5 @@
+#! /bin/bash
+
+docker run -it --rm -p 8888:8888 \
+  -v $(pwd):/home/jovyan \
+  jupyter/datascience-notebook

@@ -6,13 +6,14 @@
 * 1
   * 1.1 Introducción
   * 1.2 Puntaje Crediticio
-* 2 Modelo experto (German data)
+* 2 
+  * 2.1 Prestamos Alemánes (Visualizacion
+  * 2.2 Modelo experto (German data)
 * 3 Python
-* 4 Numpy
-* 5 Pandas
-* 6
-  * 3.1 ¿Cómo aprendemos de los datos?
-  * 3.2 Perceptron
+* 4 
+  * 4.1 Numpy
+  * 4.2 Pandas
+* 5 Aprendizaje automático
 * 7 Modelo Lineal
 * 8 Regresion Logistica
 * 9 1er Examen

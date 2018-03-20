@@ -1,11 +1,12 @@
 # Bagging, Random Forests, Boosting
 ---
 ## Bootstrap
-* Suppose we have a model fit to a stet of training data. We denote the training set by $\mathrm{Z} = (z_1, z_2, ..., z_N)$ where $z_i = (x_i, y_i)$.
-* Randomly draw datasetws with __replacement__ from the training data, the same size as the original data. This is done B times.
+* Suppose we have a model fit to a set of training data. We denote the training set by $\mathrm{Z} = (z_1, z_2, ..., z_N)$ where $z_i = (x_i, y_i)$.
+* Randomly draw datasets with __replacement__ from the training data, the same size as the original data. This is done B times.
 * Refit the model to each bootstrap datasets.
 * $S(\mathrm{Z})$ is any quantity computed from the data $Z$. From the bootstrap sampling we can estimate any aspect of the distribution of $S(\mathrm{Z})$. For example:
-$$\hat\sigma[S(\mathrm{Z})]^2 = \frac{1}{B-1}\sum_{b=1}^B(S(\mathrm{Z}^{*b}) - S^*))^2 $$
+
+$$\hat\sigma[S(\mathrm{Z})]^2 = \frac{1}{B-1}\sum_{b=1}^B(S(\mathrm{Z}^{*b})-S^*))^2$$
 
 ---
 ## Bagging
@@ -27,4 +28,5 @@ $$\hat f_{avg}(x) = \frac{1}{B}\sum_{b=1}^{B}\hat f^b(x)$$
    2. Update $\hat f$ by adding in a shrunken verson fo the new tree: $\hat f(x) \leftarrow \hat f(x) + \lambda\hat f^b(x)$
    3. Update the residuals: $r_i \leftarrow r_i - \lambda\hat f^b(x_i)$
 3. Output the boosted model:
-    $$\hat f(x) = \sum_{b=1}^B \lambda\hat f^b(x)$$
+
+    $$\hat f(x)=\sum_{b=1}^B\lambda\hat f^b(x)$$

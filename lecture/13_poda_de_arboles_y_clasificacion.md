@@ -44,6 +44,7 @@ $\hat p_{mk}$ represents the proportion of training observations in the $m$th re
 ---
 # Criterions for classification trees
 * Gini index, a measure of total variance across the $K$ classes.
+
 $$G = \sum_{k=1}^K \hat p_{mk}(1-\hat p_{mk})$$
 
 * Cross entropy
